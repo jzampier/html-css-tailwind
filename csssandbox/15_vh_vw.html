@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vh and Vw Units</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header {
+        background: #333
+          url('https://images.unsplash.com/photo-1674364390022-059f9bacb9da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1984&q=80')
+          no-repeat center center/cover;
+        color: #fff;
+        height: 100vh;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        margin: 1rem 0;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere animi
+        eligendi veniam beatae molestias inventore!
+      </p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae
+        tempore aut, corporis ipsum beatae, illum animi et nulla in quasi labore
+        ad eveniet neque, ea rem aspernatur eum. Rem dolorem voluptate corrupti,
+        fugiat quidem iusto suscipit exercitationem nemo explicabo. A est, enim
+        sequi magnam inventore quas placeat fugiat pariatur.
+      </p>
+    </section>
+  </body>
+</html>
